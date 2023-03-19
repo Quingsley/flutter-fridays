@@ -1,7 +1,7 @@
-import 'package:countdown_challenge/model/ktimer.dart';
+import './model/ktimer.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'provider/challenges_provider.dart';
+import './provider/challenges_provider.dart';
 import 'components/card.dart';
 import 'components/kbutton.dart';
 import 'components/tiles.dart';
@@ -81,6 +81,8 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.green.shade800,
+        title: const Text('Challenges'),
+        centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.menu),
           iconSize: 36,
