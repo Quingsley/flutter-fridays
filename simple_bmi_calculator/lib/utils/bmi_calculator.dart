@@ -1,3 +1,8 @@
+/// A function that calculates the BMI based on the given parameters(height, weight, age, gender).
+/// The function returns the calculated BMI.
+///
+///
+
 double calculateBMI(double height, double weight, int age, String? gender) {
   double bmi;
   if (gender == null) {

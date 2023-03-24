@@ -1,3 +1,10 @@
+///  After calculating the BMI, we need to determine the status of the result.
+/// The status is determined by the BMI value.
+/// The status is then used to determine the feedback message to be displayed.
+/// The status and feedback message are returned as a Map.
+/// The status is used to determine the color of the result card.
+/// The feedback message is displayed in the result card.
+
 Map<String, String> bmiStatusResult(double bmi) {
   String status = 'Normal';
   String feedback = 'Your weight status is within the healthy range.';
