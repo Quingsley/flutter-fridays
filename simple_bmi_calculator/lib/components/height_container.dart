@@ -3,9 +3,11 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../utils/colors.dart';
 
-// Step 1: Define a Callback.
 typedef GetHeight = void Function(double height);
 
+/// This widget displays the height container
+/// The height container is displayed on the home page
+/// The height container contains a slider to select the height
 class HeightContainer extends StatefulWidget {
   const HeightContainer({super.key, required this.getHeight});
   final GetHeight getHeight;
