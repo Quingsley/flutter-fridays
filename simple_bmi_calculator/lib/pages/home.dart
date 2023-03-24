@@ -7,7 +7,7 @@ import '../components/height_container.dart';
 import '../components/kbutton.dart';
 import '../components/secondary_card.dart';
 import '../utils/colors.dart';
-import '../components/card.dart';
+import '../components/custom_card.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
@@ -106,6 +106,7 @@ class _HomePageState extends State<HomePage> {
             ),
             KButton(
               onPressed: () {
+                //validation
                 if (gender == null || height == 0 || weight == 0 || age == 0) {
                   userFeedback(context,
                       'Please select a gender or enter values(weight, height, age) greater than 0');
