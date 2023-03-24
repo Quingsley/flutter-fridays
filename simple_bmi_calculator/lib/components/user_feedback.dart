@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../utils/colors.dart';
 
+/// This widget displays a dialog box
+/// The dialog box is displayed when the user enters invalid data
+/// The dialog box is displayed when the user clicks on the calculate button
 userFeedback(context, String message) {
   return showDialog(
     context: context,
