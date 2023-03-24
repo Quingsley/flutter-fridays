@@ -13,12 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, // remove debug banner
       title: 'BMI Calculator',
       home: const HomePage(),
       routes: {
-        '/home': (context) => const HomePage(),
-        '/result': (context) => const BMIResult(),
+        // routes table
+        '/home': (context) => const HomePage(), // home page
+        '/result': (context) => const BMIResult(), // result page
       },
     );
   }
