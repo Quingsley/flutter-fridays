@@ -5,6 +5,11 @@ import '../utils/colors.dart';
 
 typedef GetValue = void Function(int value);
 
+///  This widget is simply a custom card
+///  It takes the text and a function as parameters.
+/// The function is called when the increment or decrement button is tapped.
+/// The function is called with the new value as a parameter
+
 class SCard extends StatefulWidget {
   const SCard({super.key, required this.text, required this.getValue});
   final String text;

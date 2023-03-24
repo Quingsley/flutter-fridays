@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../utils/colors.dart';
 
+/// This widget displays a   button
+/// The button is displayed on the home page to calculate the BMI
+
 class KButton extends StatelessWidget {
   const KButton({super.key, required this.onPressed});
   final Function() onPressed;

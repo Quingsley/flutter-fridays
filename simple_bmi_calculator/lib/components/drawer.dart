@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../utils/colors.dart';
 
+/// This widget displays the navigation drawer
+/// The drawer is displayed on the left side of the screen
+/// The drawer contains a list of links to other pages
+/// The drawer is displayed on all pages
+/// The drawer is displayed when the user clicks on the hamburger icon
+
 class KDrawer extends StatelessWidget {
   const KDrawer({super.key});
 
